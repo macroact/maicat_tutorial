@@ -4,7 +4,7 @@
 When working with the Maicat, we recommend using ROS2 Humble, which is a long-term support (LTS) version, compatible with Ubuntu 22.04 LTS.
 
 Ubuntu 22.04 LTS (jammy) (install)
-Download ling https://ubuntu.com/download/desktop 
+Download https://ubuntu.com/download/desktop 
 
 ROS2 Humble
 Use the following link to install ROS2 Humble https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setup.html
