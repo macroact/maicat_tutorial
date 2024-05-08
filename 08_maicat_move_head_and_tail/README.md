@@ -27,4 +27,6 @@ ros2 topic pub joint_group_position_controller/command std_msgs/Float64MultiArra
 ```
 You can change the values in the array to set the robot's joints to different positions.
 
+# Video
+
 [Next - Maicat moving of legs](../09_maicat_move_legs/README.md)
