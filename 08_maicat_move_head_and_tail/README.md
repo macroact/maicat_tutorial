@@ -19,11 +19,11 @@ ros2 topic pub joint_group_position_controller/command std_msgs/Float64MultiArra
 
 # Explanation of the data
 ```python
-‘-0.57’:- Chest
-‘-0.3’:- Head Tilting(Up/Down)
-‘-0.3’:- Head Vertical(Rotation)
-‘0’:- Tail
-‘-0.7’ :- Head Horizontal (Left/Right)
+‘-0.57’ :- Chest
+‘-0.3’  :- Head Tilting(Up/Down)
+‘-0.3’  :- Head Vertical(Rotation)
+‘0’     :- Tail
+‘-0.7’  :- Head Horizontal (Left/Right)
 ```
 You can change the values in the array to set the robot's joints to different positions.
 
