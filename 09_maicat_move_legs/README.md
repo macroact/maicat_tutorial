@@ -1,3 +1,3 @@
 # Maicat Tutorial
 
-[Next - Macat tutorial](../10_maicat_gazebo/README.md)
+[Next - Macat gazebo](../10_maicat_gazebo/README.md)
