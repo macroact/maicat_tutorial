@@ -1,7 +1,16 @@
 # Maicat Tutorial
 # Maicat Move Leg and Controlling Maicat using your PC keyboard
 
-
+```python
+#Install xterm
+sudo apt install xterm
+```
+```python
+# run the following command
+cd maicat_pc$
+source install/setup.bash
+ros2 launch maibot_teleop teleop.launch.py
+```
 Controlling Maicat using a PC is straightforward, much like driving a car. We utilize a set of 9 keys to direct Maicat's movements, each corresponding to different directions and actions:
 ```python
 U: Turn left. Use this key when you need Maicat to change direction to the left.
