@@ -20,3 +20,5 @@ You will send an integer value 33 to signify this action.
 ros2 topic pub teensy/command std_msgs/Int32 "data: 30/33"
 ```
 # Video 
+
+[Next - Maicat camera](../04_maicat_camera/README.md)
