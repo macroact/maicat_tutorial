@@ -1,5 +1,5 @@
 # Maicat Tutorial
-
+# Maicat Mouth
 To control the movement of maicat in ROS2 (Robot Operating System 2), you'll need to set up and execute several commands in your ROS2 workspace. Below is a step-by-step guide to get you started, focusing on opening and closing the maicat's mouth using specific ROS2 commands.
 Ensure that your ROS2 workspace is properly set up and sourced. This typically involves cloning the necessary repositories and building the workspace using colcon build. 
 
