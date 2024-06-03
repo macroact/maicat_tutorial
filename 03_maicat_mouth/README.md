@@ -13,11 +13,14 @@ To control the mouth of the robotic maicat, you will publish messages to a speci
 
 # Opening the Mouth 
 You will send an integer value 30 to signify this action.
+```python
+ros2 topic pub teensy/command std_msgs/Int32 "data: 30"
+```
 
 # Closing the Mouth 
 You will send an integer value 33 to signify this action.
 ```python
-ros2 topic pub teensy/command std_msgs/Int32 "data: 30/33"
+ros2 topic pub teensy/command std_msgs/Int32 "data: 33"
 ```
 # Video 
 
