@@ -6,6 +6,9 @@ Maicat system features an advanced functionality with its Maicat camera, designe
 ros2 run maibot_cam cam
 ```
 First run this on your PC
+
+![camera01](https://github.com/macroact/maicat_tutorial/assets/106013071/3ced7d1c-f473-4822-aa6e-4f45cbe481cd)
+
 ```python
 ros2 topic pub /encode_cam std_msgs/Bool "data: 1"
 # kill the above command by Ctrl + Z
