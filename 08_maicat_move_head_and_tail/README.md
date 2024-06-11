@@ -11,6 +11,9 @@ ros2 run maibot_bringup servo_node
 ``` 
 Then on your local computer run the following movement of the maicat head and tail
 
+![movement](https://github.com/macroact/maicat_tutorial/assets/106013071/6bf0ac41-d55b-4d64-a685-39942eb5d7cd)
+
+
 ```python
 ros2 topic pub joint_group_position_controller/command std_msgs/Float64MultiArray "data: [-0.57, -0.3, -0.3, 0, -0.7]"
 
