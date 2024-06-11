@@ -13,12 +13,20 @@ To control the mouth of the robotic maicat, you will publish messages to a speci
 
 # Opening the Mouth 
 You will send an integer value 30 to signify this action.
+
+![mouth_open](https://github.com/macroact/maicat_tutorial/assets/106013071/14b82deb-f992-490f-b25b-ec78b1f588d7)
+
+
 ```python
 ros2 topic pub teensy/command std_msgs/Int32 "data: 30"
 ```
 
 # Closing the Mouth 
 You will send an integer value 33 to signify this action.
+
+![mouth_close](https://github.com/macroact/maicat_tutorial/assets/106013071/736565d4-562c-49b7-907c-1f167eae4d6f)
+
+
 ```python
 ros2 topic pub teensy/command std_msgs/Int32 "data: 33"
 ```
