@@ -6,6 +6,11 @@ After logging in, the user will be prompted to either establish a Bluetooth conn
 Wi-Fi Settings
 Search for networks that Maicat can connect to. Select your desired network from the list of available options, enter the correct password for your network, and Maicat will connect to the selected network.
 
-Video (in process)
+Video
+
+
+https://github.com/macroact/maicat_tutorial/assets/106013071/bebbb9f9-ea50-45d2-be29-6457fb8f98a2
+
+
 
 [Next - The eyes of maicat](../02_maicat_eyes/README.md)
