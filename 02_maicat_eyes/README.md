@@ -23,6 +23,7 @@ ros2 topic pub teensy/command std_msgs/Int32 "data: number of the shape of eye y
 
 Video
 
-https://drive.google.com/file/d/17UgexL0qpLxsb3j0-RETrCQy4meEew9H/view?usp=drive_link
+![Maicat_eyes_expressions_emotion-ezgif com-optimize](https://github.com/macroact/maicat_tutorial/assets/106013071/98a80e0c-b105-490c-bc51-b6e511328f80)
+
 
 [Next - The mouth of maicat](../03_maicat_mouth/README.md)
