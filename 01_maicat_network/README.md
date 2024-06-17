@@ -9,10 +9,8 @@ Search for networks that Maicat can connect to. Select your desired network from
 Video
 
 
-https://github.com/macroact/maicat_tutorial/assets/106013071/bebbb9f9-ea50-45d2-be29-6457fb8f98a2    https://github.com/macroact/maicat_tutorial/assets/106013071/921ebb38-f4fe-415c-8531-2789a58f9e42
+https://github.com/macroact/maicat_tutorial/assets/106013071/bebbb9f9-ea50-45d2-be29-6457fb8f98a2
 
-
-
-
+https://github.com/macroact/maicat_tutorial/assets/106013071/921ebb38-f4fe-415c-8531-2789a58f9e42
 
 [Next - The eyes of maicat](../02_maicat_eyes/README.md)
