@@ -32,4 +32,9 @@ ros2 topic pub teensy/command std_msgs/Int32 "data: 33"
 ```
 # Video 
 
+
+https://github.com/macroact/maicat_tutorial/assets/106013071/7d608775-537f-4ec0-b6a8-b917261cce64
+
+
+
 [Next - Maicat camera](../04_maicat_camera/README.md)
