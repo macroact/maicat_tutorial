@@ -21,6 +21,8 @@ ros2 topic pub teensy/command std_msgs/Int32 "data: number of the shape of eye y
 # You will see the change of eyes color and eye style
 ```
 
-Video (in process)
+Video
+
+https://drive.google.com/file/d/17UgexL0qpLxsb3j0-RETrCQy4meEew9H/view?usp=drive_link
 
 [Next - The mouth of maicat](../03_maicat_mouth/README.md)
