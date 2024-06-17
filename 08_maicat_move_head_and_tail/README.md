@@ -32,4 +32,8 @@ You can change the values in the array to set the robot's joints to different po
 
 # Video
 
+
+https://github.com/macroact/maicat_tutorial/assets/106013071/044cb235-4306-4485-8428-a8b5256daf87
+
+
 [Next - Maicat moving of legs](../09_maicat_move_legs/README.md)
