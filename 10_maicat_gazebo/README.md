@@ -32,6 +32,8 @@ To start mapping:
 To navigate:
 - Click '2D Nav Goal'.
 - Click and drag at the position you want the robot to go.
+  
+![maicat_nav2](https://github.com/macroact/maicat_tutorial/assets/106013071/90751657-4bc9-4f9e-9bb7-d88695391434)
 
    <img src="src/docs/images/maicat_nav2.gif" width="640"/>
 
