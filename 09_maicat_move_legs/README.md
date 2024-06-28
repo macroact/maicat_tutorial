@@ -6,6 +6,7 @@
 sudo apt install xterm
 ```
 ```python
+git clone https://github.com/macroact/maicat_pc.git
 # run the following command
 cd maicat_pc$
 source install/setup.bash
