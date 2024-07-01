@@ -25,6 +25,10 @@ M: Turn left while reversing. This command causes Maicat to reverse while simult
 , (comma): Reverse. This key moves Maicat straight backwards.
 . (period): Turn right while reversing. This key works like 'M', but turns Maicat to the right while it reverses.
 ```
-Video 3 (in progress)
+![Screenshot from 2024-07-01 16-40-46](https://github.com/macroact/maicat_tutorial/assets/106013071/8f089691-dd60-48d8-8ec5-9c86faeaead4)
+
+
+![Screenshot from 2024-07-01 16-37-29](https://github.com/macroact/maicat_tutorial/assets/106013071/12048b6b-728a-411d-a6e2-937510daf6e4)
+
 
 [Next - Macat gazebo](../10_maicat_gazebo/README.md)
