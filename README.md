@@ -11,11 +11,16 @@ Use the following link to install ROS2 Humble https://docs.ros.org/en/humble/Ins
 
 
 ## Removing seal from the battery.
-First, to prepare the robot for use, remove the safety seal from the battery. Then, press the power button to turn on Maicat, as illustrated in the picture above. You should see light activate indicating that the robot, Maicat, is powering on.
+First, to prepare the robot for use, remove the safety seal from the battery compartment. Then, press the power button to turn on Maicat, as illustrated in the picture bellow. You should see light activate indicating that the robot, Maicat, is powering on.
 
-(video 1)
-Picture1 Maicat seal (in progress)
-Picture2 Maicat power button (in progress)
+
+Maicat seal
+
+![battery_seal02_edit](https://github.com/macroact/maicat_tutorial/assets/106013071/90e6ee4a-5bf7-443d-8e20-5ff6299fe694)
+
+Maicat power button
+
+![power_button01_edit](https://github.com/macroact/maicat_tutorial/assets/106013071/ef7aa015-c368-4bf0-8c33-07f25df70d89)
 
 
 ## Start
