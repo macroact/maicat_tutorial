@@ -6,7 +6,9 @@ Maicat uses ToF sensor data to detect obstacles and integrates this information 
 
 
 
-![tof](https://github.com/macroact/maicat_tutorial/assets/106013071/49dd1e1c-f6ef-4640-9c0d-48f48c75cf32)
+```python
+
+```
 
 
 ![maicat_ros2_tof](https://github.com/user-attachments/assets/be6020f4-3b16-4b80-ba11-fe5dc4d2cc0c)
