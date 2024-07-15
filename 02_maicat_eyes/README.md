@@ -13,8 +13,6 @@ One of Maicat's features is that users can customize the color and style of its 
 
 ON your PC terminal run the below command.
 
-![maicat_eye2](https://github.com/macroact/maicat_tutorial/assets/106013071/24834d04-b48a-4f39-8291-01b1f401a926)
-
 
 ```python
 ros2 topic pub teensy/command std_msgs/Int32 "data: number of the shape of eye you need"
