@@ -3,11 +3,7 @@
 # Maicat Slam
 First of all you need to stop maicat services for high speed executing the Joint position group of maicat.
 Then you need to run the launch file on maicat terminal
-![slam](https://github.com/macroact/maicat_tutorial/assets/106013071/c4b52c5c-d043-419b-beb9-7c5a909c89a6)
 
-![3](https://github.com/macroact/maicat_tutorial/assets/106013071/bea9bf32-1441-44bd-8e15-94f91630ab60)
-
-![teleop](https://github.com/macroact/maicat_tutorial/assets/106013071/e6f73212-b02c-4196-9d74-918226dc192f)
 
 ```python
 (maicat via ssh)         sudo systemctl stop maibot_boot.service
