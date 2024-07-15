@@ -21,6 +21,5 @@ source install/setup.bash
 ros2 run maibot_interaction touch_node
 ```
 
-![Screenshot from 2024-07-15 10-37-44](https://github.com/user-attachments/assets/d032971c-eb7e-482c-8bb6-d26712671c00)
 
 [Next - Maicat moving head and tail](../08_maicat_move_head_and_tail/README.md)
