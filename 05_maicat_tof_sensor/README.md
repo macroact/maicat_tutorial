@@ -7,13 +7,10 @@ Maicat uses ToF sensor data to detect obstacles and integrates this information 
 
 
 ```python
-
+ros2 launch maibot_navigation2 slam.launch.py 
 ```
 
-
 ![maicat_ros2_tof](https://github.com/user-attachments/assets/be6020f4-3b16-4b80-ba11-fe5dc4d2cc0c)
-
-
 
 
 [Next - Maicat IMU sensor](../06_maicat_imu_sensor/README.md)
