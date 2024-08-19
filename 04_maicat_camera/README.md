@@ -2,11 +2,8 @@
 # Maicat Camera
 Maicat system features an advanced functionality with its Maicat camera, designed for streaming video, conducting facial recognition, and monitoring the home. This versatile camera can be used not only for home security but also to confirm when your children return from school. Below, I will provide a detailed explanation of how to operate the ROS topics to manage both streaming and image capture using the Maicat camera.
 
-```python
-ros2 run maibot_cam cam
-```
-First run this on your PC
 
+First run this on your PC
 
 ```python
 ros2 topic pub /encode_cam std_msgs/Bool "data: 1"
