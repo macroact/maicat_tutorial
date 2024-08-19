@@ -3,8 +3,6 @@
 To control the movement of maicat in ROS2 (Robot Operating System 2), you'll need to set up and execute several commands in your ROS2 workspace. Below is a step-by-step guide to get you started, focusing on opening and closing the maicat's mouth using specific ROS2 commands.
 Ensure that your ROS2 workspace is properly set up and sourced. This typically involves cloning the necessary repositories and building the workspace using colcon build. 
 
-Before interacting with maicat, start the main ROS2 nodes using the ```python ros2 maibot.launch.py``` file. This launch file typically initializes all necessary hardware interfaces, drivers, and configurations.
-
 
 To control the mouth of the robotic maicat, you will publish messages to a specific topic. In this case, the topic is teensy/command which takes std_msgs/Int32 type messages.
 
