@@ -5,10 +5,7 @@ Ensure that your ROS2 workspace is properly set up and sourced. This typically i
 
 Before interacting with maicat, start the main ROS2 nodes using the ```python ros2 maibot.launch.py``` file. This launch file typically initializes all necessary hardware interfaces, drivers, and configurations.
 
-# Run the launch file to bring up the robotic maicat
-```python
-ros2 launch maibot_bringup maibot.launch.py
-```
+
 To control the mouth of the robotic maicat, you will publish messages to a specific topic. In this case, the topic is teensy/command which takes std_msgs/Int32 type messages.
 
 # Opening the Mouth 
