@@ -17,4 +17,5 @@ Open your terminal and type the bellow ssh command.
 ssh maicat@maicat.local
 ```
 After successfully logged in, you can navigate to the Network node within Maicat system to make any necessary adjustments.
+
 [Next - The eyes of maicat](../02_maicat_eyes/README.md)
