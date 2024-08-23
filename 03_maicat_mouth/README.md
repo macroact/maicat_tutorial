@@ -12,7 +12,7 @@ You will send an integer value 30 to signify this action.
 
 
 ```python
-ros2 topic pub teensy/command std_msgs/Int32 "data: 30"
+ros2 topic pub --once teensy/command std_msgs/Int32 "data: 30"
 ```
 
 # Closing the Mouth 
@@ -21,7 +21,7 @@ You will send an integer value 33 to signify this action.
 
 
 ```python
-ros2 topic pub teensy/command std_msgs/Int32 "data: 33"
+ros2 topic pub --once teensy/command std_msgs/Int32 "data: 33"
 ```
 # Video 
 

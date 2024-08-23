@@ -6,9 +6,9 @@ Maicat system features an advanced functionality with its Maicat camera, designe
 First run this on your PC
 
 ```python
-ros2 topic pub /encode_cam std_msgs/Bool "data: 1"
-# kill the above command by Ctrl + Z
+ros2 topic pub --once /encode_cam std_msgs/Bool "data: 1"
 ```
+
 Then on the same PC terminal run the following command:
 ```python
 rqt

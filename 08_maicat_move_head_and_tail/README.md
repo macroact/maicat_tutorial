@@ -4,21 +4,20 @@ At this point we are going to learn how to move Maicat head and tail at the same
 
 To move the robot's head and tail simultaneously, we need to publish a message with specific position values for each joint. The command format uses a ROS topic with the following message structure: But first run this command…
 
-Run the server node
+Activate the motors
 ```python
-# No need of running this command
-ros2 run maibot_bringup servo_node
+ros2 service call /enable_servo std_srvs/srv/SetBool "{data: True}"
 ```
 
 Then on your local computer run the following movement of the maicat head and tail
 ```python
-ros2 topic pub joint_group_position_controller/command std_msgs/Float64MultiArray "data: [-0.57, -0.3, -0.3, 0, -0.7]"
+ros2 topic pub --once joint_group_position_controller/command std_msgs/Float64MultiArray "data: [-0.57, -0.3, -0.3, 0, -0.7]"
 
-# kill the above command by Ctrl + C
 ```
 
 # Explanation of the data
 ```python
+(Radian values)
 ‘-0.57’ :- Chest
 ‘-0.3’  :- Head Tilting(Up/Down)
 ‘-0.3’  :- Head Vertical(Rotation)

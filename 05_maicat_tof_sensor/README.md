@@ -5,20 +5,14 @@
 Maicat uses ToF sensor data to detect obstacles and integrates this information into the robot's navigation algorithms. It also monitors specific distances to prevent collisions and measures distances for positioning. We combine the ToF sensor data with the IMU sensor to enhance the accuracy of mapping and navigation.
 
 ```python
-#Install xterm
-sudo apt install xterm
-```
-
-```python
 # run the following command
-
 git clone https://github.com/macroact/maicat_pc.git
-cd maicat_pc$
+cd maicat_pc
 source install/setup.bash
-ros2 launch maibot_teleop teleop.launch.py
 ```
 
 ```python
+ros2 topic pub --once /control_teensy std_msgs/Int64 "data: 3"
 ros2 launch maibot_navigation2 slam.launch.py 
 ```
 
