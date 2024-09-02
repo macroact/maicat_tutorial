@@ -33,7 +33,7 @@ CTRL-C to quit
 ```
 
 
-![Screenshot from 2024-07-01 16-37-29](https://github.com/macroact/maicat_tutorial/assets/106013071/12048b6b-728a-411d-a6e2-937510daf6e4)
+![control_maicat](https://github.com/user-attachments/assets/29e33904-531a-4251-b68f-c6791a70238c)
 
 
 [Next - Macat gazebo](../10_maicat_gazebo/README.md)
