@@ -10,6 +10,7 @@
 잠시 후 마이캣은 해당 네트워크에 접속하게 되며 이후에는 별도의 설정이 필요하지 않습니다.
 
 영상
+
 https://github.com/macroact/maicat_tutorial/assets/103547322/32a52cf4-bc47-4de6-a12d-e5fdab67b557
 
 
