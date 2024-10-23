@@ -1,14 +1,16 @@
-# Maicat Tutorial
-## Setting up Network:
+# 마이캣(Maicat) 튜토리얼
+## 네트워크 설정:
 
-Pairing
-After logging in, the user will be prompted to either establish a Bluetooth connection with an existing Maicat or to set up a new connection. If an option is selected, the app will scan for nearby Maicat. Choose one of the scanned Maicat and attempt to connect.
-Wi-Fi Settings
-Search for networks that Maicat can connect to. Select your desired network from the list of available options, enter the correct password for your network, and Maicat will connect to the selected network.
+블루투스 연결
+마이캣이 켜진 상태에서 앱에 로그인을 하면 가까운 마이캣을 찾게 됩니다.
+앱 화면에 나타나는 마이캣을 선택하면 블루투스 연결을 진행합니다.
 
-Video
+와이파이(Wi-Fi) 설정
+앱 화면에서 검출되는 네트워크 목록 중 마이캣에 연결할 네트워크를 선택한 후 와이파이 비밀번호를 입력하세요.
+잠시 후 마이캣은 해당 네트워크에 접속하게 되며 이후에는 별도의 설정이 필요하지 않습니다.
 
+영상
 https://github.com/macroact/maicat_tutorial/assets/103547322/32a52cf4-bc47-4de6-a12d-e5fdab67b557
 
 
-[Next - The eyes of maicat](../02_maicat_eyes/README.md)
+[Next - 눈 디스플레이](../02_maicat_eyes/README.md)
