@@ -1,5 +1,16 @@
 # Maicat Tutorial
 # Maicat Gazebo
+After making sure you have install ROS2 (sudo apt install ros-humble-desktop), also run this command:
+```python
+    sudo apt install ros-humble-gazebo* (don't forget the *)
+```
+This will install Gazebo and ROS2 Gazebo packages. 
+
+NEW UPDATE: You may also need to source this file:
+What you can do is just add this line at the end of your .bashrc (after the line to source ros2):
+```python
+    source /usr/share/gazebo/setup.bash
+```
 
 # Run the Gazebo environment: 
 ```python
