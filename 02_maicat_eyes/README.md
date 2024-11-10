@@ -22,7 +22,7 @@
 ROS2가 설치된 PC에서 다음과 같이 명령어를 입력하여 원하는 색상과 모양으로 바꿔보세요.
 
 ```python
-ros2 topic pub --once teensy/command std_msgs/Int32 "data: number of the shape of eye you need"
+ros2 topic pub 시리얼넘버/control_teensy std_msgs/Int64 "data: 변경하고 싶은 눈 번호"
 # You will see the change of eyes color and eye style
 ```
 
