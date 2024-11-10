@@ -12,7 +12,7 @@ source install/setup.bash
 ```
 
 ```python
-ros2 topic pub --once /control_teensy std_msgs/Int64 "data: 3"
+ros2 topic pub --once /control_teensy std_msgs/Int64 "data: 51"
 ros2 launch maibot_navigation2 slam.launch.py 
 ```
 
