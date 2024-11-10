@@ -15,7 +15,7 @@ ON your PC terminal run the below command.
 
 
 ```python
-ros2 topic pub --once teensy/command std_msgs/Int32 "data: number of the shape of eye you need"
+ros2 topic pub /control_teensy std_msgs/Int64 "data: number of the shape of eye you need"
 # You will see the change of eyes color and eye style
 ```
 
