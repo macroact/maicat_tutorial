@@ -38,7 +38,7 @@ https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setu
 
 &nbsp;
 ## 순서
-0. [음성 명령] 
+0. [음성 명령](00_maicat_voice_commands/README.md)
 1. [네트워크 설정 및 IP주소 확인](01_maicat_network/README.md)
 2. [눈 디스플레이](02_maicat_eyes/README.md)
 3. [입](03_maicat_mouth/README.md)
