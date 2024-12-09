@@ -5,10 +5,12 @@
 마이캣의 기본 기능을 이용할 수 있는 초급 과정의 교육을 위해서는 블록 코딩을 추천합니다.
 - 블록 코딩은 다음 링크에서 다운로드 할 수 있습니다.
 [maicat_block_coding_v1.0.0.zip](https://github.com/user-attachments/files/18055747/maicat_block_coding_v1.0.0.zip)
+- 압축을 풀고 maicat_block_coding.html 파일을 더블클릭으로 실행하시면 아래와 같은 화면이 브라우저에 나타납니다.
+![main-screen](https://github.com/user-attachments/assets/29773b59-83ef-414d-a466-7cdc53d28812) 
 
 
 ### 우분투 & ROS2 Humble
-마이캣의 모든 기능을 이용하는 중·고등 과정의 교육을 위해서는 ROS2 Humble 설치를 추천합니다.
+마이캣의 모든 기능을 이용하는 중·고급 과정의 교육을 위해서는 ROS2 Humble 설치를 추천합니다.
 ROS2 Humble은 우분투 22.04 LTS(Long-Term Support)에 최적화된 버전입니다.
 - 우분투 22.04 LTS (jammy) : 다음 링크에서 다운로드 할 수 있습니다.
 https://ubuntu.com/download/desktop
@@ -16,12 +18,23 @@ https://ubuntu.com/download/desktop
 https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setup.html
 
 &nbsp;
-## 배터리 Seal 제거
-로봇을 사용하기 위해서는 아래 그림과 같이 먼저 배 부분에 있는 배터리 씰을 제거해야 합니다.
-그리고, 꼬리 부분에 있는 전원 버튼을 눌러 전원을 켜세요.
+## 마이캣 구성품
+### 레디백
+택배 박스 안에는 레디백이 들어 있으며, 그 내부에는 마이캣과 충전기, 어댑터, 러그가 각각 하나씩 있습니다.
+![in_maicat_bag](https://github.com/user-attachments/assets/ecccaf49-2994-416b-9394-810ca51fa20b)
 
-마이캣 배터리 Seal과 전원 버튼
-![battery_seal_and_button](https://github.com/macroact/maicat_tutorial/assets/1587168/f6e47978-816f-41d8-91f3-4013a293acf5)
+### 충전 스테이션 조립
+충전기와 러그에 있는 방향을 표시하는 작은 홈과 충전기 바닥의 돌출부에 유의하며 결합하고 홈이 있는 방향으로 밀어주세요.<br/>
+어댑터의 잭은 러그의 가장자리에 있는 커넥터와 연결한 후 어댑터를 콘센트에 꽂아주세요.
+![charging_station](https://github.com/user-attachments/assets/b20f14d6-837d-4c93-80bb-4ab96bbdf800)
+
+
+&nbsp;
+## 마이캣 전원 켜기
+로봇을 사용하기 위해서는 아래 그림과 같이 먼저 배 부분에 있는 배터리 씰을 제거해야 합니다.
+그리고, 꼬리 부분에 있는 전원 버튼을 눌러 전원을 켜세요.<br/>
+마이캣은 충전스테이션 위에 그림과 같이 올려주세요. 전원이 켜지면 눈을 감고 있는 모양이 나타납니다. 
+![maicat_power_charging](https://github.com/user-attachments/assets/f432e77c-0b34-4336-a05b-30fc5b49e9fc)
 
 &nbsp;
 ## 순서
