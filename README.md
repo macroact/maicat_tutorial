@@ -3,9 +3,9 @@
 ## '블록 코딩' 또는 '우분투 & ROS2 Humble' 설치
 ### 블록 코딩
 마이캣의 기본 기능을 이용할 수 있는 초급 과정의 교육을 위해서는 블록 코딩을 추천합니다.
-- 블록 코딩은 다음 링크에서 다운로드 할 수 있습니다.
+- 블록 코딩 파일은 다음 링크에서 다운로드 할 수 있습니다.
 [maicat_block_coding_v1.0.0.zip](https://github.com/user-attachments/files/18055747/maicat_block_coding_v1.0.0.zip)
-- 압축을 풀고 maicat_block_coding.html 파일을 더블클릭으로 실행하시면 아래와 같은 화면이 브라우저에 나타납니다.
+- 다운로드 후 압축을 풀고 maicat_block_coding.html 파일을 더블클릭으로 실행하시면 아래와 같은 화면이 브라우저에 나타납니다.
 ![main-screen](https://github.com/user-attachments/assets/29773b59-83ef-414d-a466-7cdc53d28812) 
 
 
