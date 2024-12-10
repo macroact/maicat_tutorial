@@ -19,16 +19,32 @@
     8: 졸린
     9: 잠든
 
+&nbsp;
+### 블록 코딩의 경우
+- '시작'
+블록 코딩에서 실행할 명령들은 '시작' 블록 안에 넣어야 합니다.
+마우스로 '시작' 블록을 실행 화면 안으로 끌어 놓아 주세요.
+
+![start](https://github.com/user-attachments/assets/d66f5b50-f16b-42f9-93a4-6cc79dc96c3a)
+
+- '눈 스타일'
+이제 원하시는 눈 타입을 끌어다 '시작' 블록 안으로 옮겨 주세요.
+
+![eye-style](https://github.com/user-attachments/assets/33143008-fd2c-4650-92c4-c7282cdc2158)
+  
+
+&nbsp;
+### 우분투의 경우
 ROS2가 설치된 PC에서 다음과 같이 명령어를 입력하여 원하는 색상과 모양으로 바꿔보세요.
 
 ```python
-ros2 topic pub 시리얼넘버/control_teensy std_msgs/Int64 "data: 변경하고 싶은 눈 번호"
-# You will see the change of eyes color and eye style
+ros2 topic pub 시리얼넘버(UUID)/control_teensy std_msgs/Int64 "data: 변경하고 싶은 눈 번호"
 ```
 
-영상
 
+&nbsp;
+<br/>
 ![Maicat_eyes_expressions_emotion-ezgif com-optimize](https://github.com/macroact/maicat_tutorial/assets/106013071/98a80e0c-b105-490c-bc51-b6e511328f80)
 
-
+&nbsp;
 [Next - 입](../03_maicat_mouth/README.md)
