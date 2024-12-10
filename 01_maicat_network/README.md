@@ -9,9 +9,8 @@
 앱 화면에서 검출되는 네트워크 목록 중 마이캣에 연결할 네트워크를 선택한 후 와이파이 비밀번호를 정확히 입력하세요.
 잠시 후 마이캣은 해당 네트워크에 접속하게 되며 이후에는 별도의 설정이 필요하지 않습니다.
 
-영상
-
 https://github.com/macroact/maicat_tutorial/assets/103547322/32a52cf4-bc47-4de6-a12d-e5fdab67b557
+
 
 
 [Next - 눈 디스플레이](../02_maicat_eyes/README.md)
