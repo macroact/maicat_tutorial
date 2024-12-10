@@ -33,6 +33,18 @@
 ![eye-style](https://github.com/user-attachments/assets/33143008-fd2c-4650-92c4-c7282cdc2158)
   
 
+- 휴지통
+
+더 이상 사용하지 않는 블록은 마우스로 끌어 휴지통 아이콘 위에 놓아 주세요.
+
+![trash](https://github.com/user-attachments/assets/796d9e0e-b132-4d5f-b425-740ae434a23a)    
+
+- 중심, 확대, 축소
+
+화면 중심 위치 또는 확대와 축소를 위해 사용됩니다.
+
+![zoom](https://github.com/user-attachments/assets/0fffbb61-505e-47f5-8591-8a29ce5e59d5)
+
 &nbsp;
 ### 우분투의 경우
 ROS2가 설치된 PC에서 다음과 같이 명령어를 입력하여 원하는 색상과 모양으로 바꿔보세요.
