@@ -38,7 +38,4 @@ ssh maicat@maibot1.local
 ```
 
 &nbsp;
-##
-
-&nbsp;
 [Next - 눈 디스플레이](../02_maicat_eyes/README.md)
