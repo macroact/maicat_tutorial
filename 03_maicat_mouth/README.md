@@ -1,30 +1,43 @@
-# Maicat Tutorial
-# Maicat Mouth
-To control the movement of maicat in ROS2 (Robot Operating System 2), you'll need to set up and execute several commands in your ROS2 workspace. Below is a step-by-step guide to get you started, focusing on opening and closing the maicat's mouth using specific ROS2 commands.
-Ensure that your ROS2 workspace is properly set up and sourced. This typically involves cloning the necessary repositories and building the workspace using colcon build. 
+# 마이캣(Maicat) 튜토리얼
+## 입과 소리:
 
+### 블록 코딩의 경우
+마이캣의 입을 움직이면서 울음소리를 낼 수 있어요.
 
-To control the mouth of the robotic maicat, you will publish messages to a specific topic. In this case, the topic is teensy/command which takes std_msgs/Int32 type messages.
+![meow](https://github.com/user-attachments/assets/53d953cd-acc9-469e-8f26-fbe28b647950)
 
-# Opening the Mouth 
-You will send an integer value 30 to signify this action.
+&nbsp;
+### 우분투의 경우
+마이캣의 입을 제어하는 명령은 아래와 같아요.
 
-
-
-```python
-ros2 topic pub --once teensy/command std_msgs/Int32 "data: 30"
-```
-
-# Closing the Mouth 
-You will send an integer value 33 to signify this action.
-
-
+    21~29: 끝자리 숫자 x 10ms 속도로 입을 열었다 닫기
+    30: 빠르게 입을 열기
+    31: 천천히 입을 열기
+    32: 천천히 입을 닫기
+    33: 빠르게 입을 닫기
 
 ```python
-ros2 topic pub --once teensy/command std_msgs/Int32 "data: 33"
+ros2 topic pub 시리얼넘버(UUID)/control_teensy std_msgs/Int64 "data: 원하는 입 제어 번호"
 ```
-# Video 
 
+&nbsp;
+
+소리를 내며 입을 제어하는 명령은 아래와 같아요.
+
+```python
+ros2 topic pub 시리얼넘버(UUID)/sound/meow std_msgs/Int64 "data: 원하는 소리 번호"
+```
+
+&nbsp;
+
+글자를 사람의 목소리로 변환하는 TTS는 아래의 명령어로 확인할 수 있어요.
+
+```python
+ros2 topic pub 시리얼넘버(UUID)/sound/speech std_msgs/String "data: 원하는 문장"
+```
+
+
+&nbsp;
 
 https://github.com/macroact/maicat_tutorial/assets/106013071/7d608775-537f-4ec0-b6a8-b917261cce64
 
