@@ -43,4 +43,4 @@ https://github.com/macroact/maicat_tutorial/assets/106013071/7d608775-537f-4ec0-
 
 
 
-[Next - Maicat camera](../04_maicat_camera/README.md)
+[Next - 카메라](../04_maicat_camera/README.md)
