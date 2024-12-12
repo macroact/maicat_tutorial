@@ -1,13 +1,17 @@
-# Maicat Tutorial
-# Maicat_Imu_Sensor
+# 마이캣(Maicat) 튜토리얼
+## [우분투에만 해당] Inertial Measurement Unit 센서:
 
-The IMU (Inertial Measurement Unit) sensor is used to maintain balance in the Maicat robot. An IMU combines accelerometers, gyroscopes, and sometimes magnetometers to measure acceleration, angular velocity, and magnetic field strength along different axes. When integrated into the robot’s control system, the data from the IMU helps compute Maicat's current tilt and movement status. The control system can then adjust the motors to maintain or restore balance.
+마이캣의 몸통 중앙에는 관성 측정 장치인 IMU 센서가 탑재되어 있어요.<br/>
+가속도 센서(Acceleration Sensor), 각속도 센서(Gyroscope, 자이로스코프), 지자기 센서(Magnetometer)로 구성된 9축 센서입니다.<br/>
+이 센서로 마이캣은 Roll, Pitch, Yaw를 계산하여 균형을 잡기도 하고 ToF센서의 측정값과 결합하여 2차원 지도를 그릴 수 있어요.
 
 ```python
 ros2 launch maibot_navigation2 slam.launch.py
 ```
 
+&nbsp;
+
 ![maicat_ros2_imu](https://github.com/user-attachments/assets/a4ab2090-8313-4192-bf75-c81e0429492b)
 
 
-[Next - Maicat touch sensor](../07_maicat_touch_sensor/README.md)
+[Next - Maicat 터치 센서](../07_maicat_touch_sensor/README.md)
