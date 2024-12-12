@@ -8,6 +8,7 @@
 - 다운로드 후 압축을 풀고 maicat_block_coding.html 파일을 더블클릭으로 실행하시면 아래와 같은 화면이 브라우저에 나타납니다.
 ![main-screen](https://github.com/user-attachments/assets/29773b59-83ef-414d-a466-7cdc53d28812) 
 
+&nbsp;
 
 ### [우분투 & ROS2 Humble]
 마이캣의 모든 기능을 이용하는 중·고급 과정의 교육을 위해서는 ROS2 Humble 설치를 추천합니다.
