@@ -7,7 +7,7 @@
 
 머리와 꼬리 부위의 명칭과 제한 각도(라디안)
 - Chest (Up/Down) : 머리 전체를 상하로 움직임 [-1.9, 0.0]
-- Head Vertical (Up/Down) : 고개만 상하로 움직임 [-0.2, 0.0]
+- Head Vertical (Up/Down) : 고개만 상하로 움직임 [-0.4, 0.0]
 - Head Tilting (Left/Right) : 고개를 좌우로 기울임 [-0.5, 0.5]
 - Tail (Up/Down) : 꼬리를 상하로 움직임 [0.0, 1.8]
 - Head Horizontal (Left/Right) : 머리를 좌우 회전으로 움직임 [-0.78, 0.78]
