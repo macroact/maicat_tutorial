@@ -6,6 +6,8 @@ https://gazebosim.org/docs/harmonic/install_ubuntu/ (우분투 Jammy(22.04)의 �
 
 [TOF 센서](../05_maicat_tof_sensor/README.md) 장에서 설명한 바와 같이 PC용 패키지도 설치해야 합니다.<br/>
 
+&nbsp;
+
 이후에 동일한 PC에서 마이캣 가제보를 실행시키고 동작을 확인할 수 있어요.<br/>
 다만, 2개의 launch 파일을 실행시키지 위해 2개의 터미널 창을 열어야 하며<br/>
 각각의 창에서 PC용 패키지의 환경이 구성되어 있어야만 합니다.
@@ -14,6 +16,8 @@ https://gazebosim.org/docs/harmonic/install_ubuntu/ (우분투 Jammy(22.04)의 �
 cd maicat_pc (pc용 패키지 설치 폴더)
 source install/setup.bash
 ```
+
+&nbsp;
 
 (PC 터미널 1)
 ```python
@@ -24,6 +28,8 @@ ros2 launch maibot_gazebo maibot_gazebo.launch.py
 ```python
 ros2 launch maibot_navigation2 navigation.launch.py
 ```
+
+&nbsp;
 
 내비게이션 실행:
 - 메뉴에서 '2D Nav Goal' 선택.
