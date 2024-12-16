@@ -27,7 +27,7 @@ IP주소가 정확하게 입력된 경우 아래 그림과 같이 마이캣에 �
 ![textField-id](https://github.com/user-attachments/assets/983fad1d-9ba0-4675-a62d-0c7e8b5fe229)
 
 #### [우분투의 경우]
-터미널창을 열고 IP주소 "ssh maicat@IP주소" 또는 호스트명 "ssh maicat@maibot1.local"을 입력하고 엔터키를 누릅니다.
+터미널창을 열고 IP주소 "ssh maicat@IP주소" 또는 호스트명 "ssh maicat@maibot1.local"을 입력하고 엔터키를 누릅니다.<br/>
 일반적으로 호스트명은 시리얼넘버(UUID)의 끝자리 번호가 사용되어 maibot(끝자리 번호).local로 설정되어 배송됩니다.
 ```
 ssh maicat@192.168.0.1
