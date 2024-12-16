@@ -16,6 +16,9 @@ ros2 launch maibot_bringup maibot.launch.py namespace:=시리얼넘버(UUID)
 
 (PC 터미널)
 ```python
+# 필요시 xterm 설치
+sudo apt install xterm
+
 ros2 launch maibot_teleop teleop.launch.py namespace:=시리얼넘버(UUID)
 ```
 
