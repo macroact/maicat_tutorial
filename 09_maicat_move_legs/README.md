@@ -49,5 +49,6 @@ CTRL-C to quit
 
 ![control_maicat](https://github.com/user-attachments/assets/29e33904-531a-4251-b68f-c6791a70238c)
 
+&nbsp;
 
-[Next - Macat gazebo](../10_maicat_gazebo/README.md)
+[Next - 가제보](../10_maicat_gazebo/README.md)
