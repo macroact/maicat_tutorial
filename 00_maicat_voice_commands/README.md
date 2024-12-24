@@ -38,3 +38,35 @@ https://github.com/user-attachments/assets/561909e9-0c8b-4c17-b272-8092694efc7a
 
 
 [Next - 네트워크 설정 및 IP주소 확인](../01_maicat_network/README.md)
+
+&nbsp;
+### [블록 코딩의 경우]
+- '시작'
+블록 코딩에서 실행할 명령들은 '시작' 블록 안에 넣어야 합니다.
+마우스로 '시작' 블록을 실행 화면 안으로 끌어 놓아 주세요.
+
+<img src="https://github.com/user-attachments/assets/581c8a8c-5931-48cb-8aab-a00b9e5ccc08" alt="bc-start" width="250">
+
+- '말하기'
+이제 원하시는 말하기를 끌어다 '시작' 블록 안으로 옮겨 주세요.
+
+<img src="https://github.com/user-attachments/assets/cf0369c3-11df-4c48-aff9-f26cee65b67c" alt="bc-talk" width="250">
+
+- '나만의 말하기'
+빈칸에 글자를 작성하여 원하는 말하기를 명령할 수 있습니다.
+
+<img src="https://github.com/user-attachments/assets/4a739ffc-0fce-4ee0-bbf8-ae09eab25e9b" alt="bc-custom-talk" width="250">
+
+- 휴지통
+
+더 이상 사용하지 않는 블록은 마우스로 끌어 휴지통 아이콘 위에 놓아 주세요.
+
+![trash](https://github.com/user-attachments/assets/796d9e0e-b132-4d5f-b425-740ae434a23a)    
+
+- 중심, 확대, 축소
+
+화면 중심 위치 또는 확대와 축소를 위해 사용됩니다.
+
+![zoom](https://github.com/user-attachments/assets/0fffbb61-505e-47f5-8591-8a29ce5e59d5)
+
+&nbsp;
