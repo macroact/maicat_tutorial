@@ -25,13 +25,12 @@
 블록 코딩에서 실행할 명령들은 '시작' 블록 안에 넣어야 합니다.
 마우스로 '시작' 블록을 실행 화면 안으로 끌어 놓아 주세요.
 
-![bc_start](https://github.com/user-attachments/assets/3e34c4ce-6912-4236-998c-e48e77301ff5)
+<img src="https://github.com/user-attachments/assets/581c8a8c-5931-48cb-8aab-a00b9e5ccc08" alt="bc-start" width="250">
 
 - '눈 스타일'
 이제 원하시는 눈 타입을 끌어다 '시작' 블록 안으로 옮겨 주세요.
 
-![bc_eye](https://github.com/user-attachments/assets/ad048dcd-d9c5-4919-a223-1615d4c5bc58)
-  
+<img src="https://github.com/user-attachments/assets/58eebacb-d5cf-4e49-9476-4f2ec5be5fa7" alt="bc_eye" width="250"/>
 
 - 휴지통
 
