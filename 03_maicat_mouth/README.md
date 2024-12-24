@@ -4,7 +4,15 @@
 ### [블록 코딩의 경우]
 마이캣의 입을 움직이면서 울음소리를 낼 수 있어요.
 
-![meow](https://github.com/user-attachments/assets/53d953cd-acc9-469e-8f26-fbe28b647950)
+<img  src="https://github.com/user-attachments/assets/3a3ee120-0c68-4d54-b1f5-b5a0dedcbad2"  alt="meow" width="250" />
+
+마이캣의 입을 움직이면서 사람처럼 말을 할 수 있어요.
+
+<img src="https://github.com/user-attachments/assets/cf0369c3-11df-4c48-aff9-f26cee65b67c" alt="bc-talk" width="250">
+
+빈칸에 글자를 작성하면 원하는 말하기를 명령 할 수 있어요.
+
+<img src="https://github.com/user-attachments/assets/4a739ffc-0fce-4ee0-bbf8-ae09eab25e9b" alt="bc-custom-talk" width="250">
 
 &nbsp;
 ### [우분투의 경우]
