@@ -17,14 +17,14 @@ https://github.com/macroact/maicat_tutorial/assets/103547322/32a52cf4-bc47-4de6-
 
 #### [블록 코딩의 경우]
 앱 화면에서 확인한 IP주소를 블록 코딩 화면의 IP주소창에 입력합니다.
-![textField](https://github.com/user-attachments/assets/92f6ab1b-0e13-429e-bfc1-2efc0ff545fc)
+![textField](https://github.com/user-attachments/assets/a07cb682-40f8-41ad-8682-26e51c311110)
 
 IP주소가 정확하게 입력된 경우 아래 그림과 같이 마이캣에 연결됩니다. 
-![textField-connect](https://github.com/user-attachments/assets/1a1485f5-f473-4cef-8411-65b22147e6ec)
+![textField-connect](https://github.com/user-attachments/assets/f09fc938-479b-4a5b-b1f2-2b510d62e965)
 
 이후에 보유하신 마이캣의 시리얼넘버(UUID)를 블록 코딩 화면의 ID창에 입력합니다.
-![textField-connect](https://github.com/user-attachments/assets/1a1485f5-f473-4cef-8411-65b22147e6ec)
-![textField-id](https://github.com/user-attachments/assets/983fad1d-9ba0-4675-a62d-0c7e8b5fe229)
+![textField-connect](https://github.com/user-attachments/assets/f09fc938-479b-4a5b-b1f2-2b510d62e965)
+![textField-id](https://github.com/user-attachments/assets/ced8b70a-9432-41d0-ab1d-f5726b923128)
 
 #### [우분투의 경우]
 터미널창을 열고 IP주소 "ssh maicat@IP주소" 또는 호스트명 "ssh maicat@maibot1.local"을 입력하고 엔터키를 누릅니다.<br/>
