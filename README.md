@@ -4,7 +4,7 @@
 ### [블록 코딩]
 마이캣의 기본 기능을 이용할 수 있는 초급 과정의 교육을 위해서는 블록 코딩을 추천합니다.
 - 블록 코딩 파일은 다음 링크에서 다운로드 할 수 있습니다.
-[maicat_block_coding_1.0.1.zip](https://github.com/user-attachments/files/18271225/maicat_block_coding_1.0.1.zip)
+[maicat_block_coding_1.0.1.zip](https://github.com/user-attachments/files/18287093/maicat_block_coding_1.0.1.zip)
 - 다운로드 후 압축을 풀고 maicat_block_coding.html 파일을 더블클릭으로 실행하시면 아래와 같은 화면이 브라우저에 나타납니다.
 ![main-screen](https://github.com/user-attachments/assets/c21183c9-7d20-431b-9aa2-0ff54d490e7f) 
 
