@@ -15,6 +15,9 @@
 &nbsp;
 
 ### [블록 코딩의 경우]
+마이캣의 머리와 꼬리를 동시에 움직일 수 있어요.
+
+<img src="https://github.com/user-attachments/assets/4ed06ff6-2b41-41bf-9c57-0bcd16707f42" alt="motion" width="250" />
 
 &nbsp;
 
