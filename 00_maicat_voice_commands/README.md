@@ -1,41 +1,42 @@
 # Maicat Tutorial
-## Setting up the Network:
+### Booting
 
-### (Omitt in case of institutional pre-setting) Bluetooth Connection 
-When Robot Maicat is turned on and you log in to the Maicat App, the App will search for a nearby Maicat. 
-Select the MyCat that appears on the app screen to proceed with the Bluetooth connection. Pairing
+When you switch Maicat on, Maicat's ROS environment will be prepared, which will take about a minute or more.<br/>
+Once the robot is ready, it will respond to touch on its head and back by moving its head and tail and changing the shape of its eyes.
 
-### (Omitt in case of institutional pre-setting) Wi-Fi Setting 
-From the list of detected networks on the app screen select the network to which you want Maicat to connect to. Enter the correct Wi-Fi password. After a few moments, Maicat will connect to that network and no further settings are required after that.
-
-https://github.com/macroact/maicat_tutorial/assets/103547322/32a52cf4-bc47-4de6-a12d-e5fdab67b557
+![maicat_touch](https://github.com/user-attachments/assets/b4aabfa0-1925-4134-a863-cae9a354c9da)
 
 
-### Verify Maicat's IP Address
-After checking the IP address on the app screen, use it for block-coding or SSH connection.
-![ip_address](https://github.com/user-attachments/assets/ea20e087-247a-4dfb-9ae8-8320393a7b24)
-
-#### [For Block-Coding]
-Enter the IP address found on the app screen into the IP address field on the block-coding screen. 
-![textField](https://github.com/user-attachments/assets/a07cb682-40f8-41ad-8682-26e51c311110)
-
-If the IP address is entered correctly, you will be connected to Maicat as shown below. 
-![textField-connect](https://github.com/user-attachments/assets/f09fc938-479b-4a5b-b1f2-2b510d62e965)
-
-Then enter the serial number (UUID) of your Maicat into the ID field on the block-coding screen.
-![textField-connect](https://github.com/user-attachments/assets/f09fc938-479b-4a5b-b1f2-2b510d62e965)
-![textField-id](https://github.com/user-attachments/assets/ced8b70a-9432-41d0-ab1d-f5726b923128)
-
-#### [For Ubuntu]
-Open a terminal window and enter the corresponding IP address "ssh maicat@IPaddress" as well as the host name "ssh maicat@maibot1.local" and press enter.<br/>
-In general, the hostname is the last digit of the serial number (UUID) you received and set to "maibot(last digit).local".
-```
-ssh maicat@192.168.0.1
-```
-and
-```
-ssh maicat@maibot1.local
-```
 
 &nbsp;
-[Next - The eyes of maicat](../02_maicat_eyes/README.md)
+### Turn On Voice Recognition
+When you touch Maicat's head and back, the voice recognition feature starts to prepare, which takes about a minute.<br/>
+After that, try saying “Maicat”. When the robot is ready, it will respond with a “meow”.
+
+&nbsp;
+### Voice Conversation
+Once the voice recognition feature is ready, you can have a conversation using ChatGPT.<br/>
+You can ask questions about any information you want and get answers.<br/>
+However, since ChatGPT does not include location information, it cannot answer questions that require location, such as 'Tomorrow's weather' or 'Good restaurants nearby'.
+
+&nbsp;
+### Voice Commands
+Once the voice recognition feature is ready, you can give voice commands.<br/>
+We currently support the following commands and will continue to update them.<br/>
+- 'Get up' : It is used to make the robot stand up from the charging station.
+- 'Move forward' : The robot will take 8 steps forward
+- 'Turn left' : Turns to the left.
+- 'Turn right' : Turns to the right.
+- 'Go back' : Moves backwards.
+- 'Sit' : Sits down.
+- 'Stand up' : Stands up from a seated position.
+- 'Balance' : Keeping its balance. Try and put the robot on a hard device such as a tray, and slowly tilt it in different directions.
+- 'Lie down' : Takes a lying position.
+- 'Stop now' : Shuts down the system. When the eye display turns off, press the power button to completely turn the robot off.
+
+https://github.com/user-attachments/assets/561909e9-0c8b-4c17-b272-8092694efc7a
+
+
+[Next - Network Setting and IP address](../01_maicat_network/README.md)
+
+&nbsp;
