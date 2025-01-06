@@ -1,20 +1,26 @@
 # Maicat Tutorial
+## [Only for Ubuntu] SLAM:
 
-# Maicat Slam
-First of all you need to stop maicat services for high speed executing the Joint position group of maicat.
-Then you need to run the launch file on maicat terminal
+Because SLAM features require a lot of resources, stop existing services and run only the required nodes.<br/>
 
+&nbsp;
 
+(Maicat Terminal)
 ```python
-(maicat via ssh)
+sudo systemctl stop maibot_interaction.service
+sudo systemctl stop maibot_gpt.service
 sudo systemctl stop maibot_bringup.service
-ros2 launch maibot_bringup maibot_slam.launch.py
+sudo systemctl stop maibot.service
+sudo systemctl stop maibot_boot.service
 
-(PC-terminal)
+ros2 launch maibot_bringup maibot_slam.launch.py
+```
+
+(PC Terminal)
+```python
 # Install xterm
 sudo apt install xterm
 
-ros2 service call /enable_servo std_srvs/srv/SetBool "{data: True}"
 ros2 launch maibot_teleop teleop.launch.py
 ```
 
