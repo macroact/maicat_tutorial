@@ -1,32 +1,35 @@
 # Maicat Tutorial
-# Maicat_move_head_and_tail
-At this point we are going to learn how to move Maicat head and tail at the same time. We’ll use a Ros topic to send position commands to the joints.
+## Moving Head_and Tail
 
-To move the robot's head and tail simultaneously, we need to publish a message with specific position values for each joint. The command format uses a ROS topic with the following message structure: But first run this command…
+The actuators that move the Maicat's head and its tail are distributed four actuators in the breast and head area, and one in the tail module.<br/>
+They are defined in the below order and with the angles being in radians.<br/>
+Please check each limit angle as well.
 
-Activate the motors
+Name of head and tail area and limiting angle (radian)
+- Chest (Up/Down) : Moves the entire head and neck part up and down [-1.9, 0.0]
+- Head Vertical (Up/Down) : Only moves the head up and down [-0.4, 0.0]
+- Head Tilting (Left/Right) : Tilts the head lef and right [-0.5, 0.5]
+- Tail (Up/Down) : Moves the tail up and down [0.0, 1.8]
+- Head Horizontal (Left/Right) : Rotates the head in a left and right motion [-0.78, 0.78]
+
+&nbsp;
+
+### [For Block-Coding]
+You can move Maicat's head and tail simultaneously.
+
+<img src="https://github.com/user-attachments/assets/4ed06ff6-2b41-41bf-9c57-0bcd16707f42" alt="motion" width="250" />
+
+&nbsp;
+
+### [For Ubuntu]
+On a PC with ROS installed, you can move the head and tail at the same time with the following command. <br/>
+Specify the five radian values ​​in the order above and pay attention to the angle limit.<br/>
+
 ```python
-ros2 service call /enable_servo std_srvs/srv/SetBool "{data: True}"
+ros2 topic pub serial number(UUID)/joint_group_position_controller/command std_msgs/Float64MultiArray "data: [-0.57, -0.1, -0.3, 0.6, 0.3]"
 ```
 
-Then on your local computer run the following movement of the maicat head and tail
-```python
-ros2 topic pub --once joint_group_position_controller/command std_msgs/Float64MultiArray "data: [-0.57, -0.3, -0.3, 0, -0.7]"
-
-```
-
-# Explanation of the data
-```python
-(Radian values)
-‘-0.57’ :- Chest
-‘-0.3’  :- Head Tilting(Up/Down)
-‘-0.3’  :- Head Vertical(Rotation)
-‘0’     :- Tail
-‘-0.7’  :- Head Horizontal (Left/Right)
-```
-You can change the values in the array to set the robot's joints to different positions.
-
-# Video
+&nbsp;
 
 https://github.com/macroact/maicat_tutorial/assets/106013071/044cb235-4306-4485-8428-a8b5256daf87
 
