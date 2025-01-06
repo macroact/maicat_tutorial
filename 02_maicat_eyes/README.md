@@ -1,27 +1,61 @@
 # Maicat Tutorial
-## Change the eyes of maicat
+## Change the eyes of your Maicat 
 
-One of Maicat's features is that users can customize the color and style of its eyes. There are seven eye styles available. To change the eye style, users can simply enter the command in the terminal as shown below.
+You can change the color and the shape of Maicat's eyes to express different emotions.
+The display change numbers are 0 through 9.
+The color numbers are as follows
 
+    0: yellow
+    1: blue
+    2: pink
+    
+To change the eyes' shape use the following numbers below.
+    
     3: Normal
     4: Happy
-    5: Surprise
+    5: Surprised
     6: Angry
     7: Sad
     8: Sleepy
-    9: Sleep
+    9: Asleep
 
-ON your PC terminal run the below command.
+&nbsp;
+### [For Block-Coding]
+- 'Start'
+To execute commands with the block-coding you must placed them inside the 'Start'-block.
+With your mouse drag the 'Start'-block into the execution screen.
 
+<img src="https://github.com/user-attachments/assets/581c8a8c-5931-48cb-8aab-a00b9e5ccc08" alt="bc-start" width="250">
+
+- 'Eye Style'
+Choose your favorite eye type and drag it into the 'Start'-Block.
+
+<img src="https://github.com/user-attachments/assets/58eebacb-d5cf-4e49-9476-4f2ec5be5fa7" alt="bc_eye" width="250"/>
+
+- Trash-Icon
+
+Drag blocks you no longer use with your mouse and drop them in the trash can icon.
+
+![trash](https://github.com/user-attachments/assets/796d9e0e-b132-4d5f-b425-740ae434a23a)    
+
+- Center, Zoom In, Zoom Out
+
+Used for centering the screen or zooming in and out.
+
+![zoom](https://github.com/user-attachments/assets/0fffbb61-505e-47f5-8591-8a29ce5e59d5)
+
+&nbsp;
+### [For Ubuntu]
+On a PC with ROS2 installed, enter the following command to change the color and shape to your desired one.
 
 ```python
-ros2 topic pub /control_teensy std_msgs/Int64 "data: number of the shape of eye you need"
-# You will see the change of eyes color and eye style
+ros2 topic pub serial number(UUID)/control_teensy std_msgs/Int64 "data: insert eye number you want to change"
 ```
 
-Video
 
+&nbsp;
+<br/>
 ![Maicat_eyes_expressions_emotion-ezgif com-optimize](https://github.com/macroact/maicat_tutorial/assets/106013071/98a80e0c-b105-490c-bc51-b6e511328f80)
 
-
+&nbsp;
 [Next - The mouth of maicat](../03_maicat_mouth/README.md)
