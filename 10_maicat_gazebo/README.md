@@ -8,7 +8,7 @@ As described in the chapter [TOF Sensor](../05_maicat_tof_sensor/README.md) you 
 
 &nbsp;
 
-You can then run Maicat Gazebo on the same PC and check the behavior.<br/>
+You can then run Maicat Gazebo on the same PC and test the behavior.<br/>
 However, you'll need to open two terminal windows to run the two launch files<br/>
 and each window must have the package's environment configured for the PC.
 
