@@ -1,21 +1,30 @@
 # Maicat Tutorial
-# Maicat Camera
-Maicat system features an advanced functionality with its Maicat camera, designed for streaming video, conducting facial recognition, and monitoring the home. This versatile camera can be used not only for home security but also to confirm when your children return from school. Below, I will provide a detailed explanation of how to operate the ROS topics to manage both streaming and image capture using the Maicat camera.
+## Camera Features
 
+### [For Block-Coding]
+You can check out the robot's nose camera and explore the camera feature using the "Take photo"-block.
 
-First run this on your PC
+<img src="https://github.com/user-attachments/assets/baf7216c-7d62-43f1-b98a-05dc95e83783" alt="camera" width="250"/>
+
+You can see the photos.
+
+![photos_Button](https://github.com/user-attachments/assets/f29436cd-e772-47df-946e-a075c3f59ca2)
+![photos](https://github.com/user-attachments/assets/5573fae4-1c13-44ba-b013-0504eef3b615)
+
+&nbsp;
+### [For Ubuntu]
+First, on a PC were ROS is installed, use the below command to turn on robot Maicat's camera. 
 
 ```python
-ros2 topic pub /enable_camera std_msgs/Bool "data: True"
+ros2 topic pub serial number(UUID)/enable_camera std_msgs/Bool "data: True"
 ```
 
-Then on the same PC terminal run the following command:
+After that run 'rqt'.
 ```python
 rqt
 ```
-In your rqt graph, you will find "Plugins" located in the top left corner. Under "Plugins," navigate to "Visualization" and select "Image View." This will allow you to see live images streamed from the Maicat cam.
-
-Plugins -> Visualization -> Image View
+When the rqt UI screen appears, click “Plugins” --> “Visualization” --> “Image View” from the menu on the top left. 
+Then, select the corresponding UUID/camera topic from the drop-down box to see the video that Maicat is broadcasting.
 
 [camera.webm](https://github.com/macroact/maicat_tutorial/assets/106013071/eb620e88-22f9-40d6-8518-54440af4eda2)
 
