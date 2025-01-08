@@ -4,15 +4,15 @@
 ### [For Block-Coding]
 While moving Maicat's mouth you can let the robot make catlike sounds.
 
-<img  src="https://github.com/user-attachments/assets/3a3ee120-0c68-4d54-b1f5-b5a0dedcbad2"  alt="meow" width="250" />
+<img  src="https://github.com/user-attachments/assets/da9e06ec-7727-4ab3-bcc1-616437921401"  alt="meow" width="250" />
 
 While Maicat's mouth is moving the robot can speak like a human. 
 
-<img src="https://github.com/user-attachments/assets/cf0369c3-11df-4c48-aff9-f26cee65b67c" alt="bc-talk" width="250">
+<img src="https://github.com/user-attachments/assets/fce6eb5d-373a-4a6a-84b2-a7046c16fc58" alt="bc-talk" width="250">
 
 You can command the desired speech by writing words in the blank space.
 
-<img src="https://github.com/user-attachments/assets/4a739ffc-0fce-4ee0-bbf8-ae09eab25e9b" alt="bc-custom-talk" width="250">
+<img src="https://github.com/user-attachments/assets/3e92ea58-3786-48ef-ab69-e4ded9fcda05" alt="bc-custom-talk" width="250">
 
 &nbsp;
 ### [For Ubuntu]
