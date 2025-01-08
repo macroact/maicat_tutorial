@@ -17,7 +17,7 @@ After checking the IP address on the app screen, use it for block-coding or SSH 
 
 #### [For Block-Coding]
 Enter the IP address found on the app screen into the IP address field on the block-coding screen. 
-![textField](https://github.com/user-attachments/assets/20c33dc7-2284-4e19-b7bb-1ace59cf2284)
+![textField](https://github.com/user-attachments/assets/ed7c04f9-cbca-4d98-930e-3764d24fc38b)
 
 If the IP address is entered correctly, you will be connected to Maicat as shown below. 
 ![textField-connect](https://github.com/user-attachments/assets/331add9d-9f82-4235-b7fc-38cf413181a4)
