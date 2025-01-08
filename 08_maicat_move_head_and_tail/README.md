@@ -17,7 +17,7 @@ Name of head and tail area and limiting angle (radian)
 ### [For Block-Coding]
 You can move Maicat's head and tail simultaneously.
 
-<img src="https://github.com/user-attachments/assets/4ed06ff6-2b41-41bf-9c57-0bcd16707f42" alt="motion" width="250" />
+<img src="https://github.com/user-attachments/assets/dbcb1947-ab34-4d92-80c3-96839cf7fd04" alt="motion" width="250" />
 
 &nbsp;
 
