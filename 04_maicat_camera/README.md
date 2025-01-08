@@ -8,9 +8,8 @@
 
 사진을 확인 할 수 있어요.
 
-![photos_Button](https://github.com/user-attachments/assets/f29436cd-e772-47df-946e-a075c3f59ca2)
-![photos](https://github.com/user-attachments/assets/5573fae4-1c13-44ba-b013-0504eef3b615)
-
+![photos_Button](https://github.com/user-attachments/assets/1b742a91-65bd-48da-95fa-4f21131e897f)
+![photos](https://github.com/user-attachments/assets/919da7df-b928-478c-86e1-34e83ff96605)
 &nbsp;
 ### [우분투의 경우]
 먼저 ROS가 설치된 PC에서 아래의 명령어로 마이캣의 카메라를 켜주세요.
