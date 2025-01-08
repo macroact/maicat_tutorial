@@ -13,7 +13,7 @@ https://github.com/macroact/maicat_tutorial/assets/103547322/32a52cf4-bc47-4de6-
 
 ### Verify Maicat's IP Address
 After checking the IP address on the app screen, use it for block-coding or SSH connection.
-![ip_address](https://github.com/user-attachments/assets/ea20e087-247a-4dfb-9ae8-8320393a7b24)
+![ip_address](https://github.com/user-attachments/assets/5a25b478-2bcd-42b6-8160-0470ee4437c0)
 
 #### [For Block-Coding]
 Enter the IP address found on the app screen into the IP address field on the block-coding screen. 
