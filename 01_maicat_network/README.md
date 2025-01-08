@@ -17,14 +17,14 @@ After checking the IP address on the app screen, use it for block-coding or SSH 
 
 #### [For Block-Coding]
 Enter the IP address found on the app screen into the IP address field on the block-coding screen. 
-![textField](https://github.com/user-attachments/assets/a07cb682-40f8-41ad-8682-26e51c311110)
+![textField](https://github.com/user-attachments/assets/20c33dc7-2284-4e19-b7bb-1ace59cf2284)
 
 If the IP address is entered correctly, you will be connected to Maicat as shown below. 
-![textField-connect](https://github.com/user-attachments/assets/f09fc938-479b-4a5b-b1f2-2b510d62e965)
+![textField-connect](https://github.com/user-attachments/assets/331add9d-9f82-4235-b7fc-38cf413181a4)
 
 Then enter the serial number (UUID) of your Maicat into the ID field on the block-coding screen.
-![textField-connect](https://github.com/user-attachments/assets/f09fc938-479b-4a5b-b1f2-2b510d62e965)
-![textField-id](https://github.com/user-attachments/assets/ced8b70a-9432-41d0-ab1d-f5726b923128)
+![textField-connect](https://github.com/user-attachments/assets/331add9d-9f82-4235-b7fc-38cf413181a4)
+![textField-id](https://github.com/user-attachments/assets/cca81aec-3836-4188-b3ce-5b24489ae279)
 
 #### [For Ubuntu]
 Open a terminal window and enter the corresponding IP address "ssh maicat@IPaddress" as well as the host name "ssh maicat@maibot1.local" and press enter.<br/>
