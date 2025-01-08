@@ -25,12 +25,12 @@ To change the eyes' shape use the following numbers below.
 To execute commands with the block-coding you must placed them inside the 'Start'-block.
 With your mouse drag the 'Start'-block into the execution screen.
 
-<img src="https://github.com/user-attachments/assets/581c8a8c-5931-48cb-8aab-a00b9e5ccc08" alt="bc-start" width="250">
+<img src="https://github.com/user-attachments/assets/6c4e5446-ddc2-4020-9960-7e9ed97bc692" alt="bc-start" width="250">
 
 - 'Eye Style'
 Choose your favorite eye type and drag it into the 'Start'-Block.
 
-<img src="https://github.com/user-attachments/assets/58eebacb-d5cf-4e49-9476-4f2ec5be5fa7" alt="bc_eye" width="250"/>
+<img src="https://github.com/user-attachments/assets/2615d183-350c-4a31-810a-e1d10cb0e13f" alt="bc_eye" width="250"/>
 
 - Trash-Icon
 
