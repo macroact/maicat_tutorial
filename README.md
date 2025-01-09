@@ -1,5 +1,10 @@
 # 마이캣(Maicat) 튜토리얼
 &nbsp;
+### $${\color{red}※ \space 배터리 \space 사용 \space 유의사항}$$
+### <code style="color : red">방전되지 않도록 항상 충전을 해주세요.</code>
+### <code style="color : red">장시간 사용하지 않을 경우, 반드시 배터리를 본체에서 분리하여 보관하세요. </code>
+&nbsp;
+
 ## '블록 코딩' 또는 '우분투 & ROS2 Humble' 설치
 ### [블록 코딩]
 마이캣의 기본 기능을 이용할 수 있는 초급 과정의 교육을 위해서는 블록 코딩을 추천합니다.
