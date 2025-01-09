@@ -30,7 +30,6 @@ We currently support the following commands and will continue to update them.<br
 - 'Go back' : Moves backwards.
 - 'Sit' : Sits down.
 - 'Stand up' : Stands up from a seated position.
-- 'Balance' : Keeping its balance. Try and put the robot on a hard device such as a tray, and slowly tilt it in different directions.
 - 'Lie down' : Takes a lying position.
 - 'Stop now' : Shuts down the system. When the eye display turns off, press the power button to completely turn the robot off.
 
