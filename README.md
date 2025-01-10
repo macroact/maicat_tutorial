@@ -1,7 +1,6 @@
 # 마이캣(Maicat) 튜토리얼
 &nbsp;
-### $${\color{red}※ \space 배터리 \space 사용 \space 유의사항}$$
-### <code style="color : red">방전되지 않도록 항상 충전을 해주세요.</code>
+### $${\color{red}※ \space 배터리 \space 사용 \space 유의사항}$$ <code style="color : red">방전되지 않도록 항상 충전을 해주세요!</code>
 ### <code style="color : red">장시간 사용하지 않을 경우, 반드시 배터리를 본체에서 분리하여 보관하세요. </code>
 &nbsp;
 
