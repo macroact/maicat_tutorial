@@ -8,8 +8,8 @@
 ### [블록 코딩]
 마이캣의 기본 기능을 이용할 수 있는 초급 과정의 교육을 위해서는 블록 코딩을 추천합니다.
 
-> [!IMPORTANT]
-> macOS 사용자라면 블록코딩은 Safari browser에서 실행하는 것을 권장합니다.
+> [!WARNING]
+> 크롬 브라우저에서는 블록 코딩이 정상적으로 작동하지 않을 수 있습니다.
 
 - 블록 코딩 파일은 다음 링크에서 다운로드 할 수 있습니다.
 [maicat_block_coding_ko_v1.0.0.zip](https://github.com/user-attachments/files/18449320/maicat_block_coding_ko_v1.0.0.zip)
