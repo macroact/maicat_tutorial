@@ -3,6 +3,10 @@
 ## Setup 'Block-Coding' and 'Ubuntu & ROS2 Humble'
 ### [Block-Coding]
 Block-Coding is recommended for beginner-level education to get started with the basic features of Maicat.
+
+> [!IMPORTANT]
+> If you are using macOS, it is recommended to run block coding in the Safari browser.
+
 - You can download the block-coding file from the following link.
 [maicat_block_coding_en_v1.0.0.zip](https://github.com/user-attachments/files/18449317/maicat_block_coding_en_v1.0.0.zip)
 
