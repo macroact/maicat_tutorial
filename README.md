@@ -12,7 +12,7 @@
 > 크롬 브라우저에서는 블록 코딩이 정상적으로 작동하지 않을 수 있습니다.
 
 - 블록 코딩 파일은 다음 링크에서 다운로드 할 수 있습니다.
-[maicat_block_coding_ko_v1.0.0.zip](https://github.com/user-attachments/files/19023684/maicat_block_coding_ko_v1.0.0.zip)
+[maicat_block_coding_ko_v1.0.0.zip](https://github.com/user-attachments/files/19024103/maicat_block_coding_ko_v1.0.0.zip)
 
 - 다운로드 후 압축을 풀고 maicat_block_coding.html 파일을 더블클릭으로 실행하시면 아래와 같은 화면이 브라우저에 나타납니다.
 ![main-screen](https://github.com/user-attachments/assets/147e3d7a-e6db-4c22-b09c-8973ec6ddb53) 
