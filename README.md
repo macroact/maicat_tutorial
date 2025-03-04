@@ -1,8 +1,4 @@
 # 마이캣(Maicat) 체험부스 운영
-&nbsp;
-### $${\color{red}※ \space 배터리 \space 사용 \space 유의사항}$$ <code style="color : red">완전 방전되지 않도록 항상 충전을 해주세요!</code>
-### <code style="color : red">장시간 사용하지 않을 경우, 반드시 배터리를 본체에서 분리하여 보관하세요. </code>
-&nbsp;
 
 ## 운영 준비
 
@@ -51,8 +47,6 @@ IP주소가 정확하게 입력된 경우 아래 그림과 같이 마이캣에 �
 - '뒤로 가' : 뒷걸음으로 이동합니다.
 - '앉아' : 자리에 앉습니다.
 - '일어서' : 앉은 자리에서 일어섭니다.
-- '잘자' : 엎드리는 자세가 되는데, 충전 스테이션 위에 올려 충전해 주세요.
-- '이제 그만' : 시스템을 종료합니다. 눈 디스플레이가 꺼지면 전원 버튼을 눌러 완전히 꺼주세요.
 
 https://github.com/user-attachments/assets/561909e9-0c8b-4c17-b272-8092694efc7a
 
@@ -61,29 +55,33 @@ https://github.com/user-attachments/assets/561909e9-0c8b-4c17-b272-8092694efc7a
 ##### 3. 블록 코딩
 - '시작'<br/>
 블록 코딩에서 실행할 명령들은 '시작' 블록 안에 넣어야 합니다.<br/>
-마우스로 '시작' 블록을 실행 화면 안으로 끌어 놓아 주세요.
-
+마우스로 '시작' 블록을 실행 화면 안으로 끌어 놓아 주세요.<br/>
 <img src="https://github.com/user-attachments/assets/581c8a8c-5931-48cb-8aab-a00b9e5ccc08" alt="bc-start" width="250">
 
-- '눈 스타일' 예시<br/>
-원하시는 눈 타입을 끌어다 '시작' 블록 안으로 옮겨 주세요.
+&nbsp;
 
+- '눈 스타일' 예시<br/>
+원하시는 눈 타입을 끌어다 '시작' 블록 안으로 옮겨 주세요.<br/>
 <img src="https://github.com/user-attachments/assets/58eebacb-d5cf-4e49-9476-4f2ec5be5fa7" alt="bc_eye" width="250"/>
 
-- 휴지통<br/>
-더 이상 사용하지 않는 블록은 마우스로 끌어 휴지통 아이콘 위에 놓아 주세요.
+&nbsp;
 
+- 휴지통<br/>
+더 이상 사용하지 않는 블록은 마우스로 끌어 휴지통 아이콘 위에 놓아 주세요.<br/>
 ![trash](https://github.com/user-attachments/assets/796d9e0e-b132-4d5f-b425-740ae434a23a)    
 
-- 중심, 확대, 축소<br/>
-화면 중심 위치 또는 확대와 축소를 위해 사용됩니다.
+&nbsp;
 
+- 중심, 확대, 축소<br/>
+화면 중심 위치 또는 확대와 축소를 위해 사용됩니다.<br/>
 ![zoom](https://github.com/user-attachments/assets/0fffbb61-505e-47f5-8591-8a29ce5e59d5)
 
 &nbsp;
 
 ##### 5. 재우기
-관람객이 없는 경우 충전할 수 있도록 블록코딩 메뉴에서 재우기를 해주세요.
+관람객이 없는 경우 충전할 수 있도록 블록코딩 메뉴에서 재우기를 해주세요.<br/>
+또는, 음성 명령어 '잘자'를 말하면 엎드리는 자세가 되는데, 충전 스테이션 위에 올려 충전해 주세요.<br/>
+![재우기](https://github.com/user-attachments/assets/e678e901-90fe-4af1-b0a6-503ce3e1d8eb)
 
 &nbsp;
 
@@ -91,7 +89,9 @@ https://github.com/user-attachments/assets/561909e9-0c8b-4c17-b272-8092694efc7a
 ## 마무리
 
 ##### 1. 끄기
-마이캣을 안전하게 끄기 위해서는 블록코딩 메뉴에서 끄기를 해주세요.
+마이캣을 안전하게 끄기 위해서는 블록코딩 메뉴에서 끄기를 해주세요.<br/>
+또는, 음성 명령어 '이제 그만'을 말하면 시스템을 종료합니다.<br/>
+![끄기](https://github.com/user-attachments/assets/b23fe5e0-5838-4ec1-9f5d-e0b2e20b7ace)
 
 &nbsp;
 
