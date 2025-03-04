@@ -1,62 +1,106 @@
-# 마이캣(Maicat) 튜토리얼
+# 마이캣(Maicat) 체험부스 운영
 &nbsp;
 ### $${\color{red}※ \space 배터리 \space 사용 \space 유의사항}$$ <code style="color : red">완전 방전되지 않도록 항상 충전을 해주세요!</code>
 ### <code style="color : red">장시간 사용하지 않을 경우, 반드시 배터리를 본체에서 분리하여 보관하세요. </code>
 &nbsp;
 
-## '블록 코딩' 또는 '우분투 & ROS2 Humble' 설치
-### [블록 코딩]
-마이캣의 기본 기능을 이용할 수 있는 초급 과정의 교육을 위해서는 블록 코딩을 추천합니다.
+## 운영 준비
 
-> [!WARNING]
-> 크롬 브라우저에서는 블록 코딩이 정상적으로 작동하지 않을 수 있습니다.
-
-- 블록 코딩 파일은 다음 링크에서 다운로드 할 수 있습니다.
-[maicat_block_coding_ko_v1.0.0.zip](https://github.com/user-attachments/files/19024103/maicat_block_coding_ko_v1.0.0.zip)
-
-- 다운로드 후 압축을 풀고 maicat_block_coding.html 파일을 더블클릭으로 실행하시면 아래와 같은 화면이 브라우저에 나타납니다.
-![main-screen](https://github.com/user-attachments/assets/147e3d7a-e6db-4c22-b09c-8973ec6ddb53) 
+##### 1. 전원 버튼을 눌러서 켜고 약 1분 정도 기다립니다.
+전원 버튼 LED가 먼저 켜지고, 잠시 후 마이캣의 눈 디스플레이가 켜집니다.
 
 &nbsp;
 
-### [우분투 & ROS2 Humble]
-마이캣의 모든 기능을 이용하는 중·고급 과정의 교육을 위해서는 ROS2 Humble 설치를 추천합니다.
-ROS2 Humble은 우분투 22.04 LTS(Long-Term Support)에 최적화된 버전입니다.
-- 우분투 22.04 LTS (jammy) : 다음 링크에서 다운로드 할 수 있습니다.
-https://ubuntu.com/download/desktop
-- ROS2 Humble : 다음 링크를 참고하여 설치하세요.
-https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setup.html
+##### 2. 머리를 만질 때 고개를 움직이며 눈 모양이 바뀌면, 약 1분 정도 더 기다립니다.
+![maicat_touch](https://github.com/user-attachments/assets/b4aabfa0-1925-4134-a863-cae9a354c9da)
 
 &nbsp;
-## 마이캣 구성품
-### 레디백
-택배 박스 안에는 레디백이 들어 있으며, 그 내부에는 마이캣과 충전기, 어댑터, 러그가 각각 하나씩 있습니다.
-![in_maicat_bag](https://github.com/user-attachments/assets/ecccaf49-2994-416b-9394-810ca51fa20b)
 
-### 충전 스테이션 조립
-충전기와 러그에 있는 방향을 표시하는 작은 홈과 충전기 바닥의 돌출부에 유의하며 결합하고 홈이 있는 방향으로 밀어주세요.<br/>
-어댑터의 잭은 러그의 가장자리에 있는 커넥터와 연결한 후 어댑터를 콘센트에 꽂아주세요.
-![charging_station](https://github.com/user-attachments/assets/b20f14d6-837d-4c93-80bb-4ab96bbdf800)
-
+##### 3. "마이캣" 이라고 말해보세요. 준비가 완료된 상태면 "야옹" 응답합니다.
+음성 인식 기능의 준비가 완료되면, 음성 ChatGPT를 이용한 대화가 가능합니다.
 
 &nbsp;
-## 마이캣 전원 켜기
-로봇을 사용하기 위해서는 아래 그림과 같이 먼저 배 부분에 있는 배터리 씰을 제거해야 합니다.
-그리고, 꼬리 부분에 있는 전원 버튼을 눌러 전원을 켜세요.<br/>
-마이캣은 충전스테이션 위에 그림과 같이 올려주세요. 전원이 켜지면 눈을 감고 있는 모양이 나타납니다. 
-![maicat_power_charging](https://github.com/user-attachments/assets/f432e77c-0b34-4336-a05b-30fc5b49e9fc)
+
+##### 4. 블록코딩 연결
+앱 화면에서 확인한 IP주소를 블록 코딩 화면의 IP주소창에 입력합니다.
+![textField](https://github.com/user-attachments/assets/3ffd39bc-9ada-4aa1-bcde-2d1e1bec95ae)
+
+IP주소가 정확하게 입력된 경우 아래 그림과 같이 마이캣에 연결됩니다. 
+![textField-connect](https://github.com/user-attachments/assets/67318e7c-bb64-40b7-a05d-04ce18307be9)
+
+이후에 보유하신 마이캣의 시리얼넘버(UUID)를 블록 코딩 화면의 ID창에 입력합니다.
+![textField-connect](https://github.com/user-attachments/assets/67318e7c-bb64-40b7-a05d-04ce18307be9)
+![textField-id](https://github.com/user-attachments/assets/1622000b-409c-482f-ae03-ae2d2f6464e8)
 
 &nbsp;
-## 순서
-0. [음성 명령](00_maicat_voice_commands/README.md)
-1. [네트워크 설정 및 IP주소 확인](01_maicat_network/README.md)
-2. [눈 디스플레이](02_maicat_eyes/README.md)
-3. [입](03_maicat_mouth/README.md)
-4. [카메라](04_maicat_camera/README.md)
-5. [ToF 센서](05_maicat_tof_sensor/README.md)
-6. [IMU 센서](06_maicat_imu_sensor/README.md)
-7. [터치 센서](07_maicat_touch_sensor/README.md)
-8. [머리와 꼬리](08_maicat_move_head_and_tail/README.md)
-9. [다리](09_maicat_move_legs/README.md)
-10. [가제보](10_maicat_gazebo/README.md)
-11. [SLAM](11_maicat_slam/README.md)
+
+## 운영 
+
+##### 1. 대화
+원하시는 정보에 대해 질문하시면 답변을 들을 수 있습니다.<br/>
+다만, ChatGPT에는 위치 정보가 포함되지 않기 때문에 '내일 날씨', '주변 맛집'과 같이 위치를 필요로 하는 질문에는 답변을 하지 못합니다.
+
+&nbsp;
+
+##### 2. 음성 명령
+아래와 같은 음성 명령이 가능하며 지속적으로 업데이트 할 예정입니다.<br/>
+- '일어나' : 충전 스테이션에서 일으켜 세울 때 사용합니다.
+- '앞으로 가' : 8걸음 전진합니다.
+- '왼쪽으로' : 왼쪽으로 방향을 전환합니다.
+- '오른쪽으로' : 오른쪽으로 방향을 전환합니다.
+- '뒤로 가' : 뒷걸음으로 이동합니다.
+- '앉아' : 자리에 앉습니다.
+- '일어서' : 앉은 자리에서 일어섭니다.
+- '잘자' : 엎드리는 자세가 되는데, 충전 스테이션 위에 올려 충전해 주세요.
+- '이제 그만' : 시스템을 종료합니다. 눈 디스플레이가 꺼지면 전원 버튼을 눌러 완전히 꺼주세요.
+
+https://github.com/user-attachments/assets/561909e9-0c8b-4c17-b272-8092694efc7a
+
+&nbsp;
+
+##### 3. 블록 코딩
+- '시작'<br/>
+블록 코딩에서 실행할 명령들은 '시작' 블록 안에 넣어야 합니다.<br/>
+마우스로 '시작' 블록을 실행 화면 안으로 끌어 놓아 주세요.
+
+<img src="https://github.com/user-attachments/assets/581c8a8c-5931-48cb-8aab-a00b9e5ccc08" alt="bc-start" width="250">
+
+- '눈 스타일' 예시<br/>
+원하시는 눈 타입을 끌어다 '시작' 블록 안으로 옮겨 주세요.
+
+<img src="https://github.com/user-attachments/assets/58eebacb-d5cf-4e49-9476-4f2ec5be5fa7" alt="bc_eye" width="250"/>
+
+- 휴지통<br/>
+더 이상 사용하지 않는 블록은 마우스로 끌어 휴지통 아이콘 위에 놓아 주세요.
+
+![trash](https://github.com/user-attachments/assets/796d9e0e-b132-4d5f-b425-740ae434a23a)    
+
+- 중심, 확대, 축소<br/>
+화면 중심 위치 또는 확대와 축소를 위해 사용됩니다.
+
+![zoom](https://github.com/user-attachments/assets/0fffbb61-505e-47f5-8591-8a29ce5e59d5)
+
+&nbsp;
+
+##### 5. 재우기
+관람객이 없는 경우 충전할 수 있도록 블록코딩 메뉴에서 재우기를 해주세요.
+
+&nbsp;
+
+
+## 마무리
+
+##### 1. 끄기
+마이캣을 안전하게 끄기 위해서는 블록코딩 메뉴에서 끄기를 해주세요.
+
+&nbsp;
+
+##### 2. 마이캣의 눈 디스플레이가 꺼지면, 전원 버튼 눌러서 로봇 끄기
+전원 버튼의 LED가 꺼졌는지 확인해 주세요.
+
+&nbsp;
+
+##### 3. 배터리를 분리하여 검은색 충전기에서 충전을 해주세요
+리튬 배터리의 손상된 셀을 복원하여 배터리 수명을 늘려줍니다.
+
+&nbsp;
