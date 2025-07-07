@@ -27,7 +27,7 @@ https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setu
 ## Maicat Components
 ### Ready-Bag
 Inside the shipping box is a Ready-Bag which contains one Maicat robot, one charger, one adapter, and a rug to mount the charger on.
-![Package Contens](https://github.com/user-attachments/assets/e745725a-ecb1-4163-b03d-0b3ae71d9a65)
+![Ready-Bag](https://github.com/user-attachments/assets/a35d5846-55fc-4659-8de9-5c1acb7c80be)
 
 
 ### Charging Station Assembly
