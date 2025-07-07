@@ -13,7 +13,6 @@
 
 - 블록 코딩 파일은 다음 링크에서 다운로드 할 수 있습니다.
 [maicat_block_coding_ko_v1.0.0.zip](https://github.com/user-attachments/files/19024103/maicat_block_coding_ko_v1.0.0.zip)
-![Package Contens](https://github.com/user-attachments/assets/7c955686-6a23-412d-8073-726fd8e2d0e4)
 
 - 다운로드 후 압축을 풀고 maicat_block_coding.html 파일을 더블클릭으로 실행하시면 아래와 같은 화면이 브라우저에 나타납니다.
 ![main-screen](https://github.com/user-attachments/assets/147e3d7a-e6db-4c22-b09c-8973ec6ddb53) 
@@ -32,12 +31,14 @@ https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setu
 ## 마이캣 구성품
 ### 레디백
 택배 박스 안에는 레디백이 들어 있으며, 그 내부에는 마이캣과 충전기, 어댑터, 러그가 각각 하나씩 있습니다.
-![Uploading Package Contens.png…]()
+![Package Contens](https://github.com/user-attachments/assets/56c9fa1c-6aa9-4aa6-ba0e-0b8508b3d939)
+
+
 
 ### 충전 스테이션 조립
 충전기와 러그에 있는 방향을 표시하는 작은 홈과 충전기 바닥의 돌출부에 유의하며 결합하고 홈이 있는 방향으로 밀어주세요.<br/>
 어댑터의 잭은 러그의 가장자리에 있는 커넥터와 연결한 후 어댑터를 콘센트에 꽂아주세요.
-![charging_station](https://github.com/user-attachments/assets/b20f14d6-837d-4c93-80bb-4ab96bbdf800)
+![GitHub_Connect rug and charger_2](https://github.com/user-attachments/assets/a232c811-098e-40cf-a3ed-cef8031d5557)
 
 
 &nbsp;
@@ -45,7 +46,8 @@ https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setu
 로봇을 사용하기 위해서는 아래 그림과 같이 먼저 배 부분에 있는 배터리 씰을 제거해야 합니다.
 그리고, 꼬리 부분에 있는 전원 버튼을 눌러 전원을 켜세요.<br/>
 마이캣은 충전스테이션 위에 그림과 같이 올려주세요. 전원이 켜지면 눈을 감고 있는 모양이 나타납니다. 
-![maicat_power_charging](https://github.com/user-attachments/assets/f432e77c-0b34-4336-a05b-30fc5b49e9fc)
+![GitHub_Maicat_Battery_Power](https://github.com/user-attachments/assets/5a7f4c46-e277-4153-bea7-fb91b43cc65d)
+
 
 &nbsp;
 ## 순서
