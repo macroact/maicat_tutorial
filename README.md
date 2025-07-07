@@ -27,12 +27,13 @@ https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setu
 ## Maicat Components
 ### Ready-Bag
 Inside the shipping box is a Ready-Bag which contains one Maicat robot, one charger, one adapter, and a rug to mount the charger on.
-![in_maicat_bag](https://github.com/user-attachments/assets/ecccaf49-2994-416b-9394-810ca51fa20b)
+![Package Contens](https://github.com/user-attachments/assets/e745725a-ecb1-4163-b03d-0b3ae71d9a65)
+
 
 ### Charging Station Assembly
 Note the small grooves on the charger and rug that mark their orientation, as well as the protrusions on the bottom of the charger. Push them together in the direction of the grooves.<br/>
 Connect the jack on the adapter to the connector on the edge of the rug, then plug the adapter into an outlet.
-![charging_station](https://github.com/user-attachments/assets/b20f14d6-837d-4c93-80bb-4ab96bbdf800)
+![GitHub_Connect rug and charger_2](https://github.com/user-attachments/assets/a52c6631-8a24-4d18-88d7-242c491432fe)
 
 
 &nbsp;
@@ -40,7 +41,8 @@ Connect the jack on the adapter to the connector on the edge of the rug, then pl
 To use the robot, you must first remove the battery seal on the belly, as shown in the image below.
 Then, press the power button infront of the tail to turn it on.<br/>
 Place Maicat on the charging station as shown in the image. When the power is turned on, the eye display will show the form of closed eyes. 
-![maicat_power_charging](https://github.com/user-attachments/assets/f432e77c-0b34-4336-a05b-30fc5b49e9fc)
+![GitHub_battery-power](https://github.com/user-attachments/assets/b43960f1-e913-42f6-ad65-68e501f7dcee)
+
 
 &nbsp;
 ## Order
