@@ -23,15 +23,15 @@ However, since ChatGPT does not include location information, it cannot answer q
 ### Voice Commands
 Once the voice recognition feature is ready, you can give voice commands.<br/>
 We currently support the following commands and will continue to update them.<br/>
-- 'Get up' : It is used to make the robot stand up from the charging station.
+- 'Wake up' : It is used to make the robot stand up from the charging station.
 - 'Move forward' : The robot will take 8 steps forward
 - 'Turn left' : Turns to the left.
 - 'Turn right' : Turns to the right.
-- 'Go back' : Moves backwards.
-- 'Sit' : Sits down.
+- 'Sit down' : Sits down.
 - 'Stand up' : Stands up from a seated position.
 - 'Lie down' : Takes a lying position.
-- 'Stop now' : Shuts down the system. When the eye display turns off, press the power button to completely turn the robot off.
+- 'Rest' or 'Relax' : Takes a sleep position and rest.
+- 'Finish' : Shuts down the system. When the eye display turns off, press the power button to completely turn the robot off.
 
 https://github.com/user-attachments/assets/561909e9-0c8b-4c17-b272-8092694efc7a
 
