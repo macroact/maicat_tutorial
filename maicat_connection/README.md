@@ -96,7 +96,7 @@ sudo shutdown now
 ssh maicat@[UUID].local
 ```
 접속이 가능하면 WiFi 설정이 완료된 것입니다.</br>
-접속이 되지 않고 오류 메시지가 발생하면, 아래 링크의 프로그램을 통해 마이캣을 연결 여부를 확인해 주세요.</br>
+접속이 되지 않고 오류 메시지가 발생하면, 아래 링크의 프로그램을 통해 마이캣의 연결 여부를 확인해 주세요.</br>
 - https://www.advanced-ip-scanner.com/download
 - https://angryip.org/download
 
