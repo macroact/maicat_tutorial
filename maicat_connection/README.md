@@ -27,7 +27,6 @@ ssh maicat@[UUID].local
 이후에 표시되는 maicat@[UUID].local&apos;s password: 에 패스워드 입력 <code style="color : red">(한글 또는 대문자 입력 상태인지 확인)</code>
 <!-- ```  Three backticks to end block -->
 정상적으로 접속이 완료되면, 아래와 같이 터미널 프롬프트가 표시됩니다.
-<!-- ```  Three backticks to start block " -->
 ```python
 maicat@[UUID].local:~ $
 ```
@@ -43,6 +42,35 @@ SSH 접속 상태에서 다음 명령어를 실행합니다.
 source ~/system/maibot_update.sh
 ```
 업데이트 관련 로그가 출력된 후 마이캣은 자동으로 리부팅 됩니다.
+
+&nbsp;
+
+### 마이캣 언어(영어/한국어) 설정 - 마이캣 앱에 추가할 예정
+<!-- Blank -->
+SSH 접속 상태에서 다음 명령어를 실행합니다.
+<!-- Blank -->
+
+```python
+nano ~/DB/maicat_status.json
+```
+아래와 같이 편집기 화면이 나타나는데, 
+```python
+{"uuid": "{UUID}", "model": "CRC-789", "version": "EV", "info": {"name": "maicat", "gender": "female", "createDate": "2025_07_01_00_00_00_+0900"}, "mode": "automatic", "settings": {"maicatInfo": {"soundVolume": "8", "sound": "3"}, "emergencyContact": {"name": "", "mobileNumber": ""}, "photoAllow": "on", "reminderOption": "read"}}
+```
+<!-- ```  Three backticks to start block " -->
+"maicatInfo": {"soundVolume": "8", "sound": "3"}
+<!-- ```  Three backticks to end block -->
+위 부분을 한국어로 설정하려면,</br>
+<!-- ```  Three backticks to start block " -->
+"maicatInfo": {"soundVolume": "8", "sound": "3", "language": "ko-KR"}
+<!-- ```  Three backticks to end block -->
+영어로 설정하려면,</br>
+<!-- ```  Three backticks to start block " -->
+"maicatInfo": {"soundVolume": "8", "sound": "3", "language": "en-US"}
+<!-- ```  Three backticks to end block -->
+와 같이 language 설정을 추가하시면 됩니다.</br>
+변경된 언어는 리부팅 후 적용됩니다.
+
 
 &nbsp;
 
