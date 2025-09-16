@@ -24,7 +24,7 @@ WiFi 계정 변경 또는 신규 등록을 위해 모바일 핫스팟 기능을 
 ssh maicat@[UUID].local
 ```
 <!-- ```  Three backticks to start block " -->
-이후에 표시되는 maicat@[UUID].local&apos;s password: 에 패스워드 입력 <span style="color:red">(한글 또는 대문자 입력 상태인지 확인)</span>
+이후에 표시되는 maicat@[UUID].local&apos;s password: 에 패스워드 입력 <code style="color : red">(한글 또는 대문자 입력 상태인지 확인)</code>
 <!-- ```  Three backticks to end block -->
 정상적으로 접속이 완료되면, 아래와 같이 터미널 프롬프트가 표시됩니다.
 <!-- ```  Three backticks to start block " -->
@@ -56,7 +56,7 @@ SSH 접속 상태에서 다음 명령어를 실행합니다.
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```
 아래와 같이 편집기 화면이 나타나는데, network 부분 중 Macroact 네트워크는 향후 Hotspot 또는 A/S를 대비해 그대로 유지하고, 연결이 불가한 네트워크는 삭제하고 새로운 network를 추가합니다.</br>
-<span style="color:red;font-weight:bold">입력값에 오류가 있는 경우, 모바일 핫스팟 마저 접속이 불가하고 A/S를 받아야만 하니 재차 확인을 해야 합니다.</span>
+<code style="color : red">입력값에 오류가 있는 경우, 모바일 핫스팟 마저 접속이 불가하고 A/S를 받아야만 하니 재차 확인을 해야 합니다.</code>
 
 ```python
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
@@ -79,8 +79,8 @@ network={
         key_mgmt=WPA-PSK         # 인증 방식
 }
 ```
-편집을 완료한 후 <span style="color:red">Ctrl + O</span> 를 누르고 파일명을 확인한 후 <span style="color:red">엔터키</span>를 통해 저장합니다.</br>
-이후에 <span style="color:red">Ctrl + X</span> 로 편집기를 종료합니다.</br>
+편집을 완료한 후 <code style="color : red">Ctrl + O</code> 를 누르고 파일명을 확인한 후 <code style="color : red">엔터키</code>를 통해 저장합니다.</br>
+이후에 <code style="color : red">Ctrl + X</code> 로 편집기를 종료합니다.</br>
 Secure Shell로 연결된 상태이기에 당장 네트워크 테스트를 할 수는 없기 때문에 아래 명령어로 마이캣의 시스템을 종료합니다.
 ```python
 sudo shutdown now
@@ -103,4 +103,3 @@ ssh maicat@[UUID].local
 ```python
 ssh maicat@192.168.0.27  # IP 예시
 ```
-
