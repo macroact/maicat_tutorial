@@ -56,7 +56,8 @@ SSH 접속 상태에서 다음 명령어를 실행합니다.
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```
 아래와 같이 편집기 화면이 나타나는데, network 부분 중 Macroact 네트워크는 향후 Hotspot 또는 A/S를 대비해 그대로 유지하고, 연결이 불가한 네트워크는 삭제하고 새로운 network를 추가합니다.</br>
-### <code style="color : red">입력값에 오류가 있는 경우, 모바일 핫스팟마저 접속이 불가하고 A/S를 받아야만 하니 재차 확인을 해야 합니다.</code>
+> [!WARNING]
+> ### $${\color{red}※ \space 입력값에 \space 오류가 \space 있는 \space 경우, \space 모바일 \space 핫스팟마저 \space 접속이 \space 불가하고 \space A/S를 \space 받아야만 \space 하니 \space 재차 \space 확인을 \space 해야 \space 합니다.}$$
 
 ```python
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
