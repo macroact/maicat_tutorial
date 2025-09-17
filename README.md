@@ -1,4 +1,4 @@
-# Maicat Tutorial
+# Maicat EV(Education Version) Tutorial
 &nbsp;
 ## Setup 'Block-Coding' and 'Ubuntu & ROS2 Humble'
 ### [Block-Coding]
