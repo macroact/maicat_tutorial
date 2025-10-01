@@ -11,7 +11,8 @@ Block-Coding is recommended for beginner-level education to get started with the
 [maicat_web_coding_en_v1.1.0.zip](https://github.com/user-attachments/files/22636729/maicat_web_coding_en_v1.1.0.zip)
 
 - After downloading, unzip and double-click the maicat_block_coding.html file to run it. The following screen will appear in your browser.
-![main-screen](https://github.com/user-attachments/assets/b510d665-9aa3-441a-8947-b190eee47e5b)
+<img width="3584" height="2016" alt="image" src="https://github.com/user-attachments/assets/e41e9e46-9c79-4d2f-8447-59f0d636e756" />
+
 
 &nbsp;
 ### [Ubuntu & ROS2 Humble]
