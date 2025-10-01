@@ -15,7 +15,8 @@
 [maicat_web_coding_ko_v1.1.0.zip](https://github.com/user-attachments/files/22636738/maicat_web_coding_ko_v1.1.0.zip)
 
 - 다운로드 후 압축을 풀고 maicat_block_coding.html 파일을 더블클릭으로 실행하시면 아래와 같은 화면이 브라우저에 나타납니다.
-![main-screen](https://github.com/user-attachments/assets/147e3d7a-e6db-4c22-b09c-8973ec6ddb53) 
+<img width="3584" height="2016" alt="image" src="https://github.com/user-attachments/assets/43bc7087-b9e5-4116-8cd0-df7068c64437" />
+
 
 &nbsp;
 
